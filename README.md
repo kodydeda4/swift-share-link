@@ -1,6 +1,6 @@
 # swift-share-link
 
-Swift package that abstracts the `UIActivityViewController` into a reactive view-modifier!
+Swift package that abstracts the `UIActivityViewController` into a reactive view-modifier.
 
 ```swift
 .shareLink(item: $destination)
