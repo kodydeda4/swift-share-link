@@ -12,6 +12,24 @@ Add a sharelink
 
 ## Example
 
+<table>
+<tr>
+<th>
+Preview
+</th>
+<th>
+Code
+</th>
+</tr>
+
+<tr>
+
+<td>
+<video src="https://github.com/user-attachments/assets/4a40b50c-c888-413f-a544-8a1bd24c7773">
+</td>
+
+<td>
+
 ```swift
 struct ContentView: View {
   @State var destination: URL?
@@ -35,9 +53,13 @@ struct ContentView: View {
   }
 }
 
-// Create a URL
 @Sendable func createURL(with data: Data) async throws -> URL {
   try await Task.sleep(for: .seconds(1))
   return URL(string: "https://www.apple.com")!
 }
 ```
+
+</td>
+
+</tr>
+</table>
